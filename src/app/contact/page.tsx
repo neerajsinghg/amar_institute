@@ -69,13 +69,19 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Google Map Placeholder */}
-            <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 h-[300px] overflow-hidden">
-              <div className="w-full h-full bg-gray-200 rounded-xl flex items-center justify-center">
-                <span className="text-gray-500 font-medium">Google Maps Embed</span>
-                {/* Embed an actual iframe when going live */}
-                {/* <iframe src="..." width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy"></iframe> */}
-              </div>
+            {/* Google Map */}
+            <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3621.2483552879817!2d81.535225!3d24.821179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ5JzE2LjIiTiA4McKwMzInMDYuOCJF!5e0!3m2!1sen!2sin!4v1779174772112!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl"
+                title="Shri Amar Computer Institution Location"
+              />
             </div>
           </div>
 
