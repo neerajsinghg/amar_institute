@@ -174,7 +174,8 @@ export default function ApplyPage() {
                 submit at our Lalgaon office with required documents.
               </p>
               <a
-                href="/admission-form"
+                href="/admission-form.pdf"
+                download="Shri-Amar-Admission-Form.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-800 text-white py-3 rounded-xl font-medium transition-colors"
