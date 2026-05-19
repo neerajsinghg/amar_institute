@@ -14,9 +14,9 @@ import emailjs from "@emailjs/browser";
 //    (In the template use variables: {{student_name}}, {{father_name}},
 //     {{mobile}}, {{email}}, {{dob}}, {{course}}, {{qualification}}, {{address}})
 // 4. Copy your PUBLIC KEY from Account > API Keys
-const EMAILJS_SERVICE_ID  = "service_9jcelwm";
-const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // ← Replace this
-const EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";   // ← Replace this
+const EMAILJS_SERVICE_ID = "service_9jcelwm";
+const EMAILJS_TEMPLATE_ID = "template_p06jod8";
+const EMAILJS_PUBLIC_KEY  = "pIAjZDuVNUXitlPDO";
 
 // ─── WhatsApp Configuration ───────────────────────────────────────────────────
 // Your institute WhatsApp number (with country code, no +)
