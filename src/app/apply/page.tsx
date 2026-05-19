@@ -16,7 +16,7 @@ import emailjs from "@emailjs/browser";
 // 4. Copy your PUBLIC KEY from Account > API Keys
 const EMAILJS_SERVICE_ID = "service_9jcelwm";
 const EMAILJS_TEMPLATE_ID = "template_p06jod8";
-const EMAILJS_PUBLIC_KEY  = "pIAjZDuVNUXitlPDO";
+const EMAILJS_PUBLIC_KEY = "pIAjZDuVNUXitlPDO";
 
 // ─── WhatsApp Configuration ───────────────────────────────────────────────────
 // Your institute WhatsApp number (with country code, no +)
@@ -65,17 +65,6 @@ export default function ApplyPage() {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
-
-    // Guard: check if credentials are still placeholders
-    if (
-      EMAILJS_SERVICE_ID === "YOUR_SERVICE_ID" ||
-      EMAILJS_TEMPLATE_ID === "YOUR_TEMPLATE_ID" ||
-      EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY"
-    ) {
-      setError("EmailJS is not configured yet. Please add your Template ID and Public Key.");
-      setIsSubmitting(false);
-      return;
-    }
 
     try {
       // Send Email via EmailJS
